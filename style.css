@@ -52,6 +52,7 @@ body {
     height: 260px;
     background: #d9d9d9;
     margin-top: 20px;
+    flex-grow: 0;
 }
 
 /* ABOUT SECTION */
