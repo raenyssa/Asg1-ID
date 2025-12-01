@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1100px;   /* DESKTOP WIDTH */
+    margin: auto;
+    padding: 20px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.band-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dots span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #dcdcdc;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+/* NAV BAR */
+.navbar {
+    margin-top: 15px;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 260px;
+    background: #d9d9d9;
+    margin-top: 20px;
+}
+
+/* ABOUT SECTION */
+.about {
+    margin-top: 40px;
+}
+
+.about h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* GRID LAYOUT EXACT LIKE YOUR IMAGE */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 column desktop layout */
+    grid-template-rows: auto auto auto;
+    gap: 40px 60px;
+}
+
+/* Left image box */
+.left-img {
+    width: 220px;
+    height: 220px;
+    background: #d9d9d9;
+}
+
+/* Right text lines */
+.right-lines .line {
+    width: 90%;
+    height: 3px;
+    background: #000;
+    margin: 10px 0;
+}
+
+/* Long paragraph lines */
+.long-lines {
+    grid-column: 1 / 2;
+}
+
+.long-lines .line {
+    width: 80%;
+    height: 3px;
+    background: black;
+    margin: 10px 0;
+}
+
+/* Right bottom image */
+.right-img {
+    width: 220px;
+    height: 220px;
+    background: #d9d9d9;
+    justify-self: end;
+}
