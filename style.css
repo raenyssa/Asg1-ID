@@ -38,6 +38,11 @@ body {
     margin-left: 8px;
 }
 
+.navbar {
+    flex-wrap: 0;
+    padding: 30px;
+}
+
 .navbar a {
     margin-right: 25px;
     text-decoration: none;
@@ -218,67 +223,32 @@ body {
 }
 
 .content-container {
-    padding: 40px 20px;
     max-width: 1000px; /* Optional: Center the content on a wider screen */
     margin: 0 auto;
 }
 
 /* Large top placeholder box */
 .top-placeholder {
-    height: 200px; /* Placeholder height */
-    background-color: #e0e0e0;
-    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    display: block;
+    /* removes small gaps */
+    margin: 10px 0;
 }
 
-/* Text lines placeholder (under the top box) */
-.text-lines {
-    width: 60%; /* The lines are shorter than the box */
-    margin: 15px auto 40px auto;
-}
-
-.text-lines .line {
-    height: 10px;
+.line {
+    width: 100%;
     background-color: #d0d0d0;
-    margin-bottom: 8px;
-}
-/* Make the second line slightly shorter */
-.text-lines .line:last-child {
-    width: 80%;
+    padding: auto;
 }
 
-
-/* Grid for the 4 items */
-.grid-container {
-    display: grid;
-    /* Two columns with equal width, spacing between them */
-    grid-template-columns: 1fr 1fr; 
-    gap: 40px 20px; /* Row gap, Column gap */
-    padding-top: 20px; /* Space above the grid */
+.music-item {
+    width: 40%; /* 3 per row */
+    background-color: #5d7eff;
 }
 
-/* Small placeholder box for each grid item */
-.small-placeholder {
-    /* Use a padding trick to maintain an aspect ratio (e.g., 1:1 square) */
-    width: 100%;
-    padding-bottom: 100%; /* Height equals width */
-    background-color: #e0e0e0;
-    margin-bottom: 15px;
-}
-
-/* Adjust the lines under the small boxes */
-.grid-item .text-lines {
-    /* Reset margins for lines under small boxes */
-    margin: 0; 
-    width: 100%;
-}
-
-.grid-item .text-lines .line {
-    /* Slightly thinner lines */
-    height: 8px; 
-    margin-bottom: 6px;
-}
-
-/* Make the second line in grid items slightly shorter */
-.grid-item .text-lines .line:last-child {
-    width: 70%;
+.link-music {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
