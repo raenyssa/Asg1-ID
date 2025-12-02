@@ -252,3 +252,17 @@ body {
     height: 300px;
     object-fit: cover;
 }
+
+.content {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.scene {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* removes small gaps */
+    margin: 10px 0;
+    padding-bottom: 20%;
+}
