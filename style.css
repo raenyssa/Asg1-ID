@@ -121,37 +121,13 @@ body {
     margin: auto;
 }
 
-/* Right text lines */
-.right-lines .line {
-    width: 90%;
-    height: 3px;
-    background: #000;
-    margin: 10px 0;
+.album-card {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px;
 }
 
-/* Long paragraph lines */
-.long-lines {
-    grid-column: 1 / 2;
-}
-
-.long-lines .line {
-    width: 80%;
-    height: 3px;
-    background: black;
-    margin: 10px 0;
-}
-
-/* Right bottom image */
-/*
-.right-img {
-    width: 220px;
-    height: 220px;
-    background: #d9d9d9;
-    justify-self: end;
-    position: relative;
-    left: 500px;
-}
-*/
 /* TOUR SECTION */
 .tour-section {
     width: 95%;
@@ -162,6 +138,7 @@ body {
 .tour-section h2 {
     font-size: 22px;
     margin-bottom: 25px;
+    color: #ffffff;
 }
 
 .tour-list {
@@ -196,10 +173,10 @@ body {
 
 /* TICKETS BUTTON */
 .buy-btn {
-    padding: 6px 15px;
-    border: 1.5px solid #5d7eff;
+    padding: 6px 10px;
+    border: 1.5px solid #ffffff;
     background: transparent;
-    color: #8da0ff;
+    color: #a8b4f0;
     border-radius: 6px;
     font-size: 14px;
     cursor: pointer;
@@ -207,8 +184,8 @@ body {
 }
 
 .buy-btn:hover {
-    background: #5d7eff;
-    color: black;
+    background: #ffffff;
+    color: rgb(150, 146, 184);
 }
 
 .flex-item {
