@@ -51,7 +51,7 @@ body {
 .navbar {
     flex-wrap: 0;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #c7c7c7;
 }
 
 .navbar a {
@@ -143,6 +143,8 @@ body {
     width: 95%;
     margin: 40px auto;
     font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 .tour-section h2 {
