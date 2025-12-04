@@ -22,11 +22,10 @@ body {
 }
 
 .band-name {
-    font-size: 22px;
-    font-weight: bold;
-    color: rgb(172, 172, 172);
-    flex-wrap: 0;
-    padding-left: 30px;
+    font-size: 40px;     /* make text bigger */
+    font-weight: 700;    /* bold */
+    color: white;
+    padding:20px;
 }
 
 .social-icons {
@@ -34,6 +33,9 @@ body {
     justify-content: center;  /* center horizontally */
     gap: 30px;                /* space between icons */
     margin-top: 20px;
+    width: auto;
+    height: auto;
+    margin: 0 8px;
 }
 
 .social-icons i {
@@ -48,14 +50,14 @@ body {
 
 .navbar {
     flex-wrap: 0;
-    padding: 30px;
+    padding: 10px;
+    background-color: #ffffff;
 }
 
 .navbar a {
     margin-right: 25px;
     text-decoration: none;
-    color: lightslategray;
-    font-size: 15px;
+    color: rgb(48, 51, 54);
 }
 
 /* BANNER */
@@ -230,6 +232,7 @@ body {
 
 .line {
     width: 100%;
+    height: 40px;
     background-color: #d0d0d0;
     padding: auto;
     text-align: center;
@@ -247,7 +250,7 @@ body {
 
 .music-item {
     width: 40%; /* 3 per row */
-    background-color: #5d7eff;
+    background-color: #000000;
 }
 
 .link-music {
