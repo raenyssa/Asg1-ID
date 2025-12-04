@@ -29,13 +29,21 @@ body {
     padding-left: 30px;
 }
 
-.dots span {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background: #dcdcdc;
-    border-radius: 50%;
-    margin-left: 8px;
+.social-icons {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    gap: 30px;                /* space between icons */
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 40px;      /* size of icons */
+    color: white;         /* icon color */
+    transition: 0.3s;
+}
+
+.social-icons a:hover i {
+    opacity: 0.6;         /* hover effect */
 }
 
 .navbar {
@@ -48,31 +56,6 @@ body {
     text-decoration: none;
     color: lightslategray;
     font-size: 15px;
-}
-
-.social-row {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 40px 0 10px 0;
-}
-
-.social-row a {
-    color: white; 
-    font-size: 32px; /* same size as your screenshot */
-    text-decoration: none;
-}
-
-.social-row a:hover {
-    opacity: 0.6;
-}
-
-.footer-text {
-    text-align: center;
-    color: white;
-    margin-bottom: 30px;
-    font-size: 14px;
-    opacity: 0.8;
 }
 
 /* BANNER */
