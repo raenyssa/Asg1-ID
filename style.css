@@ -50,6 +50,31 @@ body {
     font-size: 15px;
 }
 
+.social-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0 10px 0;
+}
+
+.social-row a {
+    color: white; 
+    font-size: 32px; /* same size as your screenshot */
+    text-decoration: none;
+}
+
+.social-row a:hover {
+    opacity: 0.6;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
 /* BANNER */
 .banner {
     width: 100%;
@@ -190,13 +215,20 @@ body {
 
 .flex-item {
     width: 33%; /* 3 per row */
-    background-color: #5d7eff;
+    background-color: #000000;
 }
 
 .flex-img {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto; /* centers image */
+}
+
+.flex-info {
+    text-align: center;
+    color: white;
 }
 
 .content-container {
@@ -217,6 +249,7 @@ body {
     width: 100%;
     background-color: #d0d0d0;
     padding: auto;
+    text-align: center;
 }
 
 .music-container {
