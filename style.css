@@ -270,3 +270,38 @@ album-content {
     margin: 10px 0;
     padding-bottom: 20%;
 }
+
+.ticket-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.ticket-controls button {
+    padding: 5px 12px;
+    font-size: 18px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#ticketForm input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#buyBtn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}

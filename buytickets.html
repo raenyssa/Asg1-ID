@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="index.html" class="band-name">
+        The<br>Neighbourhood
+    </a>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/thenbhd/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/TheNeighbourhood/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://music.apple.com/us/artist/the-neighbourhood/219350813"><i class="fas fa-music"></i></a>
+            <a href="https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.youtube.com/channel/UCDAXusYwRJpiSP2CHnXnVnw"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@thenbhd"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </header>
+
+    <!-- NAV BAR -->
+    <nav class="navbar">
+        <a href="tickets.html">Tickets</a>
+        <a href="merch.html">Merch</a>
+        <a href="music.html">Music</a>
+        <a href="clips.html">Clips</a>
+    </nav>
+
+<section class="about">
+    <h2>TICKETS</h2>
+
+    <div class="container-about">
+
+        <div class="intro-content">
+            <h3>Concert Ticket</h3>
+            <p>Event: The Neighbourhood Live</p>
+            <p>Date: 24 Nov 2025</p>
+            <p>Price: <strong>$20 per ticket</strong></p>
+
+            <!-- Ticket Selector -->
+            <div class="ticket-controls">
+                <button id="minus">-</button>
+                <span id="ticketCount">1</span>
+                <button id="plus">+</button>
+            </div>
+
+            <p>Total Price: $<span id="totalPrice">20</span></p>
+
+            <!-- Form -->
+            <form id="ticketForm">
+                <input type="text" id="name" placeholder="Your Name" required><br>
+                <input type="email" id="email" placeholder="Your Email" required><br>
+                <button type="submit" id="buyBtn">Buy Ticket</button>
+            </form>
+
+        </div>
+
+        <div class="about-cards">
+            <img src="photo.jpg" alt="Event Photo">
+        </div>
+
+    </div>
+</section>
+
+<script src="ticket.js"></script>
+
+</body>
+</html>
