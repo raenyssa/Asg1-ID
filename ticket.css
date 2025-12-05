@@ -105,8 +105,7 @@ body {
 }
 /* INFO SECTION */
 
-
-.info-content {
+.info-section {
     font-family: Arial, sans-serif;
     font-size: 17px;
     line-height: 1.3; /* collapse text closer together */
@@ -114,4 +113,15 @@ body {
     margin-top: 30px;
     padding-left: 10%;
     max-width: 600px;
+}
+
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
