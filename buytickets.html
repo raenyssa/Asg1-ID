@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticketing</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -33,43 +34,13 @@
         <a href="clips.html">Clips</a>
     </nav>
 
-<section class="about">
+<section class="tickets-section">
     <h2>TICKETS</h2>
 
-    <div class="container-about">
-
-        <div class="ticket-card">
-            <img src="singapore.jpg" alt="Event Photo">
-        </div>
-
-        <div class="intro-content">
-            <h3>Concert Ticket</h3>
-            <p>Event: The Neighbourhood Live</p>
-            <p>Date: 24 Nov 2025</p>
-            <p>Price: <strong>$20 per ticket</strong></p>
-
-            <!-- Ticket Selector -->
-            <div class="ticket-controls">
-                <button id="minus">-</button>
-                <span id="ticketCount">1</span>
-                <button id="plus">+</button>
-            </div>
-
-            <p>Total Price: $<span id="totalPrice">20</span></p>
-
-            <!-- Form -->
-            <form id="ticketForm">
-                <input type="text" id="name" placeholder="Your Name" required><br>
-                <input type="email" id="email" placeholder="Your Email" required><br>
-                <button type="submit" id="buyBtn">Buy Ticket</button>
-            </form>
-
-        </div>
-
+    <!-- Banner-style event image -->
+    <div class="ticket-banner">
+        <img src="singapore.jpg" alt="Event Banner">
     </div>
-</section>
-
-<script src="ticket.js"></script>
 
 </body>
 </html>
