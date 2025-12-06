@@ -27,6 +27,7 @@ body {
     font-weight: 700;    /* bold */
     color: rgb(0, 0, 0);
     padding:20px;
+    padding-left: 10%;
     text-decoration: none;
 }
 
@@ -54,7 +55,9 @@ body {
 .navbar {
     flex-wrap: 0;
     padding: 10px;
+    padding-left: 10%;
     background-color: #c7c7c7;
+    font-size: 20px;
 }
 
 .navbar a {
