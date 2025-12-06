@@ -78,15 +78,18 @@ body {
     margin-right: auto;
 }
 
-.event {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: justify; 
+.event-details {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* spacing between rows */
 }
 
-.event-details {
-    display: inline-block;
-    text-align: center;
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* spacing between icon and text */
+    font-size: 18px;
 }
 
 .inlineObject {
