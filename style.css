@@ -8,7 +8,7 @@ body {
     width: auto;
     margin: auto;
     padding: 20px;
-    display:flex; 
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
@@ -22,18 +22,22 @@ body {
 }
 
 .band-name {
-    font-size: 40px;     /* make text bigger */
-    font-weight: 700;    /* bold */
+    font-size: 40px;
+    /* make text bigger */
+    font-weight: 700;
+    /* bold */
     color: rgb(255, 255, 255);
-    padding:20px;
+    padding: 20px;
     padding-left: 10%;
     text-decoration: none;
 }
 
 .social-icons {
     display: flex;
-    justify-content: center;  /* center horizontally */
-    gap: 30px;                /* space between icons */
+    justify-content: center;
+    /* center horizontally */
+    gap: 30px;
+    /* space between icons */
     margin-top: 20px;
     width: auto;
     height: auto;
@@ -42,13 +46,16 @@ body {
 }
 
 .social-icons i {
-    font-size: 30px;      /* size of icons */
-    color: white;         /* icon color */
+    font-size: 30px;
+    /* size of icons */
+    color: white;
+    /* icon color */
     transition: 0.3s;
 }
 
 .social-icons a:hover i {
-    opacity: 0.6;         /* hover effect */
+    opacity: 0.6;
+    /* hover effect */
 }
 
 .navbar {
@@ -94,16 +101,19 @@ body {
 
 .about-cards img {
     width: 100%;
-    max-width: 500px; /* make picture bigger */
+    max-width: 500px;
+    /* make picture bigger */
     height: auto;
-    object-fit: cover; /* keeps it looking clean */
+    object-fit: cover;
+    /* keeps it looking clean */
     border-radius: 10px;
 }
 
 .intro-content {
     font-family: Arial, sans-serif;
     font-size: 20px;
-    line-height: 1.3; /* collapse text closer together */
+    line-height: 1.3;
+    /* collapse text closer together */
     color: white;
     margin-top: 0;
     max-width: 600px;
@@ -125,22 +135,40 @@ body {
     margin: auto;
 }
 
+.album-list {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .album-card {
-    width: 100%;
-    height: auto;
-    display: block;
-    padding: 10px;
-    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    padding: 30px;
+    padding-left: 10%;
+    gap: 30px;
+}
+
+.album-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.album-info {
     color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .album-content {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.3; /* collapse text closer together */
-    color: white;
-    margin-top: 0;
+    color: #ffffff;
     max-width: 600px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
 }
 
 
@@ -207,7 +235,8 @@ body {
 }
 
 .flex-item {
-    width: 33%; /* 3 per row */
+    width: 33%;
+    /* 3 per row */
     background-color: #000000;
 }
 
@@ -216,7 +245,8 @@ body {
     height: 300px;
     object-fit: cover;
     display: block;
-    margin: 0 auto; /* centers image */
+    margin: 0 auto;
+    /* centers image */
 }
 
 .flex-info {
@@ -225,7 +255,8 @@ body {
 }
 
 .content-container {
-    max-width: 1000px; /* Optional: Center the content on a wider screen */
+    max-width: 1000px;
+    /* Optional: Center the content on a wider screen */
     margin: 0 auto;
 }
 
@@ -240,10 +271,13 @@ body {
 
 .line {
     width: 100%;
-    height: 40px;
+    height: 60px;
+    font-size: 22px;
     background-color: #d0d0d0;
-    padding: auto;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .music-banner {
@@ -254,17 +288,18 @@ body {
 }
 
 .music-container {
-    display:flex;
+    display: flex;
     width: auto;
     margin: auto;
     padding: 20px;
-    display:flex; 
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .music-item {
-    width: 40%; /* 3 per row */
+    width: 40%;
+    /* 3 per row */
     background-color: #000000;
 }
 
