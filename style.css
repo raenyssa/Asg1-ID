@@ -322,3 +322,114 @@ body {
     margin: 10px 0;
     padding-bottom: 20%;
 }
+
+@media (max-width: 768px) {
+
+    /* Stack layouts vertically */
+    .container,
+    .header,
+    .about,
+    .cards,
+    .ticket-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Make text readable on mobile */
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Buttons & links */
+    button,
+    .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Fix class names for mobile stacking */
+    .container-about {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .about-cards,
+    .album-card,
+    .music-item {
+        width: 100%;
+        max-width: 400px;
+        /* or 90% for smaller devices */
+        margin: 0 auto;
+    }
+
+    .album-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .album-card img,
+    .flex-img,
+    .link-music {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .music-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .tour-row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tour-date,
+    .tour-location {
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-left: 0;
+    }
+
+    .band-name {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    .banner img,
+    .scene,
+    .top-placeholder,
+    .music-banner {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Optional: reduce padding on mobile */
+    .container,
+    .header,
+    .music-container,
+    .album-list {
+        padding: 10px;
+    }
+}
