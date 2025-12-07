@@ -26,9 +26,6 @@ Feature 6 - Watch their music videos on their clips page
 Feature 7 - Link to their socials when clicked on the most top right icons 
 Feature 8 - Naviagte through pages when clicked on them 
 
-Features Left to Implement
-Buy merch page
-
 Technologies Used
 HTML (used to code out the base of the website)
 CSS (used to add colours, images, and add life to the website)
